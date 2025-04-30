@@ -58,7 +58,7 @@ public class Model {
         
         int w = 60 + random.nextInt(100);//dimensiona massima
         int h = 60 + random.nextInt(100);
-        int x = random.nextInt(width - w);//questo erche sia al interno della schermata
+        int x = random.nextInt(width - w);//questo perche rispettino i limiti della schermata
         int y = random.nextInt(height - h);
 
         shapes.add(new Shape(type, fill, color, x, y, w, h));
